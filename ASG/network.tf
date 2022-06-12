@@ -1,0 +1,5 @@
+	resource "google_compute_address" "nat_ip"
+	resource "google_compute_router" "nat-router"
+	resource "google_compute_router_nat" "nat-gateway"
+		output "nat_ip_address"
+	resource "google_compute_firewall" "allow-internal"

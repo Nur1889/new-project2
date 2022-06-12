@@ -1,0 +1,8 @@
+	google_compute_global_forwarding_rule
+	google_compute_target_http_proxy
+	google_compute_backend_service
+	google_compute_instance_group_manager
+	google_compute_health_check
+	google_compute_url_map
+	google_compute_autoscaler
+		output "load-balancer-ip-address"
